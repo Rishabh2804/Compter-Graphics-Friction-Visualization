@@ -21,7 +21,7 @@ This is the very file you are currently reading!! 😂😂
    This file contains the definitions of the user - functions used to draw the fundamental graphics.
 
    The definitions and definitions are as follows :-
-   
+
   - <b>void lineDDA(int x1, int y1, int x2, int y2, int COLOR)</b>   
   
 	    Draws a line of specified COLOR from (x1, y1) to (x2, y2) using DDA line drawing algorithm.
