@@ -1,4 +1,4 @@
-// Created By :- Rishabh Gupta
+// Created By :- Gaurav Gupta, Rishabh Gupta with the knowledge of basic graphics algorithms
 #include <stdio.h>
 #include <graphics.h>
 #include <conio.h>
