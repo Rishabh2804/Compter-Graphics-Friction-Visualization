@@ -83,14 +83,14 @@ int main()
 	}
 
 	delay(100);
-	myinfo();
+	credit();
 
 	getch();
 	closegraph();
 	return 0;
 }
 
-void myinfo()
+void credit()
 {
 	setcolor(LIGHTGREEN);
 	rec(40, 30, 300, 80, YELLOW);
@@ -98,8 +98,7 @@ void myinfo()
 	outtextxy(50, 35, "CREATED BY: ");
 
 	settextstyle(0, 0, 1);
-	outtextxy(150, 50, "Gaurav Gupta, 3C2");
-	outtextxy(150, 65, "05014802720");
+	outtextxy(150, 50, "Gaurav, Rishabh");
 }
 
 void project_info()
