@@ -65,7 +65,7 @@ This is the very file you are currently reading!! 😂😂
   
 	    Visualizes the effect of dust-particles at time of stopping.
     
-  - <b>void myinfo()</b>
+  - <b>void credit()</b>
   
 	    Introduces the creators of the Project (Of Course US!).
 
