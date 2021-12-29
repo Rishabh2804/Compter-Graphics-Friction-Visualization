@@ -7,7 +7,7 @@ void car(int, int, int, int);
 void road(int, int);
 void night();
 void dust(int);
-void myinfo();
+void credit();
 void project_info();
 
 int main()
@@ -98,7 +98,7 @@ void credit()
 	outtextxy(50, 35, "CREATED BY: ");
 
 	settextstyle(0, 0, 1);
-	outtextxy(150, 50, "Gaurav, Rishabh");
+	outtextxy(150, 50, "Gaurav & Rishabh");
 }
 
 void project_info()
