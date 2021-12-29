@@ -6,7 +6,7 @@ This folder contains the entire source code of this project.
 
 Contents of the directory are listed below :- 
 
-<details> <summary> <a href="Source Code/README.md"> &nbsp;README.md</a>
+<details> <summary> <a href=https://github.com/Rishabh2804/Compter-Graphics-Friction-Visualization/blob/main/Source%20Code/README.md> &nbsp;README.md</a>
 </summary> 
 
 What are you trying to do, bud 🤨🤔?<br>
@@ -16,7 +16,7 @@ This is the very file you are currently reading!! 😂😂
 
 </details>
 
-<details> <summary><a href="Source Code/GRAPH.H"> &nbsp;GRAPH.H </a></summary> 
+<details> <summary><a href=https://github.com/Rishabh2804/Compter-Graphics-Friction-Visualization/blob/main/Source%20Code/GRAPH.H> &nbsp;GRAPH.H </a></summary> 
 
    This file contains the definitions of the user - functions used to draw the fundamental graphics.
 
@@ -40,7 +40,7 @@ This is the very file you are currently reading!! 😂😂
 
 </details>
 
-<details> <summary> <a href="Source Code/CARDRAG.C"> &nbsp;CARDRAG.C</a> </summary>
+<details> <summary> <a href=https://github.com/Rishabh2804/Compter-Graphics-Friction-Visualization/blob/main/Source%20Code/CARDRAG.C> &nbsp;CARDRAG.C</a> </summary>
 
   This file contains the actual driver code of the visualization.
   
