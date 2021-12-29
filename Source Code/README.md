@@ -67,7 +67,7 @@ This is the very file you are currently reading!! 😂😂
     
   - <b>void myinfo()</b>
   
-	    Introduces the creator of the Project (Of Course ME!).
+	    Introduces the creators of the Project (Of Course US!).
 
   - <b>void project info()</b>
 
