@@ -29,7 +29,7 @@ void lineBres(int x0, int y0, int x1, int y1, int COLOR)
             putpixel(x, y, COLOR);
             p = p + 2 * dy;
             x = x + 1;
-	}
+        }
     }
 }
 
@@ -41,13 +41,9 @@ void lineDDA(int x0, int y0, int x1, int y1, int COLOR)
     dy = (float)(y1 - y0);
 
     if (dx >= dy)
-    {
-	steps = dx;
-    }
+        steps = dx;
     else
-    {
-	steps = dy;
-    }
+        steps = dy;
 
     dx = dx / steps;
     dy = dy / steps;
@@ -64,10 +60,10 @@ void lineDDA(int x0, int y0, int x1, int y1, int COLOR)
 }
 void rec(int left, int top, int right, int bottom, int COLOR)
 {
-	lineDDA(left, top, right, top, COLOR);
-	lineDDA(left, bottom, right, bottom, COLOR);
-	lineDDA(left, top, left, bottom, COLOR);
-	lineDDA(right, top, right, bottom, COLOR);
+    lineDDA(left, top, right, top, COLOR);
+    lineDDA(left, bottom, right, bottom, COLOR);
+    lineDDA(left, top, left, bottom, COLOR);
+    lineDDA(right, top, right, bottom, COLOR);
 }
 
 void circleMid(int xc, int yc, int r, int COLOR)
@@ -128,6 +124,7 @@ void circleBres(int xc, int yc, int r, int COLOR)
             d = d + (4 * x) - (4 * y) + 10;
             y = y - 1;
         }
+        
         x = x + 1;
         helper(xc, yc, x, y, COLOR);
     }

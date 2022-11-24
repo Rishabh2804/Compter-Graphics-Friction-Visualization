@@ -19,14 +19,14 @@ int main()
 	initgraph(&gd, &gm, "C:\\TURBOC3\\BGI");
 
 	project_info();
-	
+
 	printf("\n\t\t\t\tWelcome!\n\n");
 	printf("This following screen is a visualisation of a moving car ");
 	printf("coming to rest\ndue to frictional force of rough road\n\n");
 	printf("Real - time details of instantaneous velocity of car and ");
 	printf("average speed are also displayed.\n\n");
 	printf("The coefficient of friction of road is set to 0.1\n");
-	
+
 	v0 = 35;
 	printf("Enter initial speed of car (v0) : ");
 	scanf("%lf", &v0);
